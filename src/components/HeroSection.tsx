@@ -61,28 +61,37 @@ const HeroSection: React.FC = () => {
       </button>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-center justify-center text-center text-white">
+      <div className="relative z-10 h-full xsm:mt-12 flex items-center justify-center text-center text-white hero-section">
         <div className="max-w-5xl mx-auto px-6">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp">
             Creating Unforgettable
             <br />
             <span className="text-[#f05f75]">Memories</span> with Style
           </h1>
-          <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90 animate-fadeInUp animation-delay-300">
+          <p className="text-sm md:text-2xl mb-8 max-w-3xl mx-auto opacity-90 animate-fadeInUp animation-delay-300">
             From intimate gatherings to grand celebrations, we craft
             extraordinary events that tell your unique story
           </p>
           <div className="space-x-4 animate-fadeInUp animation-delay-600">
             <Link
               to="/contact"
-              className="inline-flex items-center bg-[#f05f75] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#e04a64] transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+              className="inline-flex items-center bg-[#f05f75] text-white 
+             px-5 py-2.5 sm:px-8 sm:py-4 
+             rounded-full text-base sm:text-lg font-semibold 
+             hover:bg-[#e04a64] transform hover:scale-105 
+             transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               Plan Your Event
-              <ArrowRight className="ml-2 w-5 h-5" />
+              <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
             </Link>
+
             <Link
               to="/gallery"
-              className="inline-flex items-center bg-transparent border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-gray-800 transition-all duration-300"
+              className="inline-flex items-center bg-transparent border-2 border-white text-white
+             px-5 py-2.5 sm:px-8 sm:py-4 
+             rounded-full text-base sm:text-lg font-semibold 
+             hover:bg-white hover:text-gray-800 
+             transition-all duration-300"
             >
               View Gallery
             </Link>
