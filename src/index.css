@@ -133,4 +133,15 @@ textarea:focus {
     align-items: center;
     justify-content: center;
   }
+  .two-buttons a {
+    width: 100% !important;
+    text-align: center !important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .two-buttons .View_Gallery {
+    margin: 0 !important;
+  }
 }

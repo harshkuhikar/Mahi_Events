@@ -49,13 +49,13 @@ const HeroSection: React.FC = () => {
       {/* Navigation Arrows */}
       <button
         onClick={prevSlide}
-        className="absolute left-6 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white p-3 rounded-full transition-all duration-300 backdrop-blur-sm z-20"
+        className="absolute left-2 top-1/2 -translate-y-0 bg-white/20 hover:bg-white/30 text-white p-3 rounded-full transition-all duration-300 backdrop-blur-sm z-20"
       >
         <ChevronLeft size={24} />
       </button>
       <button
         onClick={nextSlide}
-        className="absolute right-6 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white p-3 rounded-full transition-all duration-300 backdrop-blur-sm z-20"
+        className="absolute right-2 top-1/2 -translate-y-0 bg-white/20 hover:bg-white/30 text-white p-3 rounded-full transition-all duration-300 backdrop-blur-sm z-20"
       >
         <ChevronRight size={24} />
       </button>
@@ -91,7 +91,7 @@ const HeroSection: React.FC = () => {
              px-5 py-2.5 sm:px-8 sm:py-4 
              rounded-full text-base sm:text-lg font-semibold 
              hover:bg-white hover:text-gray-800 
-             transition-all duration-300"
+             transition-all duration-300 View_Gallery"
             >
               View Gallery
             </Link>
