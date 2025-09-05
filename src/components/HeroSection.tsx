@@ -61,18 +61,18 @@ const HeroSection: React.FC = () => {
       </button>
 
       {/* Content */}
-      <div className="relative z-10 h-full xsm:mt-12 flex items-center justify-center text-center text-white hero-section">
+      <div className="relative z-10 h-full xsm:mt-12 flex items-center justify-center text-center text-white">
         <div className="max-w-5xl mx-auto px-6">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fadeInUp">
+          <h1 className="text-2xl md:text-7xl font-bold mb-6 animate-fadeInUp">
             Creating Unforgettable
             <br />
             <span className="text-[#f05f75]">Memories</span> with Style
           </h1>
-          <p className="text-sm md:text-2xl mb-8 max-w-3xl mx-auto opacity-90 animate-fadeInUp animation-delay-300">
+          <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90 animate-fadeInUp animation-delay-300">
             From intimate gatherings to grand celebrations, we craft
             extraordinary events that tell your unique story
           </p>
-          <div className="space-x-4 animate-fadeInUp animation-delay-600">
+          <div className="space-x-4 animate-fadeInUp animation-delay-600 two-buttons">
             <Link
               to="/contact"
               className="inline-flex items-center bg-[#f05f75] text-white 

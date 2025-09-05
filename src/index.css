@@ -124,12 +124,13 @@ textarea:focus {
     transform: rotate(360deg);
   }
 }
-@media only screen and (max-width: 600px) {
-  .hero-section {
-    margin-top: 30px;
-  }
 
-  .hero-section .animate-fadeInUp {
-    font-size: 20px;
+@media only screen and (max-width: 600px) {
+  .two-buttons {
+    gap: 10px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
